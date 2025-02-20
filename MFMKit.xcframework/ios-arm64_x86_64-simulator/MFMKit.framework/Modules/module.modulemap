@@ -1,0 +1,6 @@
+framework module MFMKit {
+  umbrella header "MFMKit.h"
+  export *
+
+  module * { export * }
+}
