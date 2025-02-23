@@ -5,6 +5,8 @@
 [![Swift 5.7.1](https://img.shields.io/badge/Swift-5-blue.svg?style=flat)](https://swift.org/)
 [![License](https://img.shields.io/github/license/chanjima/PopPullDOwn)](https://github.com/chanjima/PopPullDown/blob/main/LICENSE)
 
+[English](README.md) | [日本語](README.ja.md)
+
 MFMKit is a Swift library designed to parse text containing MFM format (Misskey Flavored Markdown) and convert it into a syntax tree for easier recognition in programming.
 
 This project can be described as a port of [mfm.js](https://github.com/misskey-dev/mfm.js) to Swift and is heavily influenced by it.</br>
@@ -40,7 +42,7 @@ let text = Mfm.toString(mfmTree)
 
 ## Contributing
 
-Bug reports and feature requests are accepted via GitHub Issues. Pull requests are also welcome. While there are no specific rules set at the moment, rules may be added in the future.
+Bug reports and feature requests are accepted via GitHub Issues.
 
 ## License
 
