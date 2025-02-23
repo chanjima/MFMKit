@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MFMKit.h</key>
 		<data>
-		cd0l1oADnQP8zNz1YS64+ZgLQJ8=
+		EsPz0mw83ymG8DEif6ZMXfXvUEw=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>Modules/MFMKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		2PuYW5JLdz1laLQD91bvYLyaMhc=
+		9DmN9ryuy36a8IlkY6fcOcvc0mw=
 		</data>
 		<key>Modules/MFMKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		blVEOeMyoZRXb7xdkg6KVM0NFdE=
+		xaop6EXlerS4ZFEQZLZV5hER6o4=
 		</data>
 		<key>Modules/MFMKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		q1PpXi7QEd0p7NipqnCUmyYrJVo=
+		cRCJrB2jiTGyNagE8LrHlnZqpsY=
 		</data>
 		<key>Modules/MFMKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		blVEOeMyoZRXb7xdkg6KVM0NFdE=
+		xaop6EXlerS4ZFEQZLZV5hER6o4=
 		</data>
 		<key>Modules/MFMKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		1cwuRN2hOKuL+v6WIJB3IWFeqt4=
+		PMKFVjHpcpC7vx7qUFk8OALfIvk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,42 +43,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			89yXZvW0k4O72SJNjarvhXsp3oBP23GanSocdeSWC+Q=
+			EQtF60uGK1zfnG84TynEuW45xWIwQcOBz/mDJa7X4AQ=
 			</data>
 		</dict>
 		<key>Modules/MFMKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yLVPHSgK99urxSMnEyIdaUEyq4UHLN4VzKJGq7OTzb0=
+			UdlF1PN9SXYpxov2Z3UzcRZWIZqbfCQ9xzqhYvPYf2E=
 			</data>
 		</dict>
 		<key>Modules/MFMKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SzOhzlIGtt3n67bRfvthN+vsUvuNUWQIcN3S5gvtkLY=
+			lK3CgL1hHg9CSHGcUhpGwN3avzdWYMlU+FanP6/gCus=
 			</data>
 		</dict>
 		<key>Modules/MFMKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WB612qvRGtecxNoxlWRUpO69q9Lh3fzT37SZB7FbVaQ=
+			4GLud0K+Rp/BdJwcR6dom1HE8EepfXckM9LgU4fidBQ=
 			</data>
 		</dict>
 		<key>Modules/MFMKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SzOhzlIGtt3n67bRfvthN+vsUvuNUWQIcN3S5gvtkLY=
+			lK3CgL1hHg9CSHGcUhpGwN3avzdWYMlU+FanP6/gCus=
 			</data>
 		</dict>
 		<key>Modules/MFMKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r0oKrYi99gPLH6hai5vN0GAVBMCwD+cGJooY519xMXU=
+			c9vF8iLptC5rLxMaZU28tayUChp8XAcO1C0AiXlCdHE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

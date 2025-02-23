@@ -15,6 +15,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "MFMKit"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Mfm",
         "printedName": "Mfm",
@@ -26,8 +33,30 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -37,8 +66,161 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6MFMKit3MfmC5parseyySSFZ",
-            "mangledName": "$s6MFMKit3MfmC5parseyySSFZ",
+            "usr": "s:6MFMKit3MfmC5parseySDys11AnyHashableVypGSgSSFZ",
+            "mangledName": "$s6MFMKit3MfmC5parseySDys11AnyHashableVypGSgSSFZ",
+            "moduleName": "MFMKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "parseSimple",
+            "printedName": "parseSimple(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MFMKit3MfmC11parseSimpleySDys11AnyHashableVypGSgSSFZ",
+            "mangledName": "$s6MFMKit3MfmC11parseSimpleySDys11AnyHashableVypGSgSSFZ",
+            "moduleName": "MFMKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toJson",
+            "printedName": "toJson(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MFMKit3MfmC6toJsonySSSgSDys11AnyHashableVypGFZ",
+            "mangledName": "$s6MFMKit3MfmC6toJsonySSSgSDys11AnyHashableVypGFZ",
+            "moduleName": "MFMKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toString",
+            "printedName": "toString(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6MFMKit3MfmC8toStringySSSgSDys11AnyHashableVypGFZ",
+            "mangledName": "$s6MFMKit3MfmC8toStringySSSgSDys11AnyHashableVypGFZ",
             "moduleName": "MFMKit",
             "static": true,
             "declAttributes": [
@@ -77,5 +259,13 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/chanjima\/Documents\/XCFrameWork\/MFMKit\/MFMKit\/Mfm.swift",
+      "kind": "StringLiteral",
+      "offset": 2448,
+      "length": 35489,
+      "value": "\"        var mfm;(()=>{\"use strict\";var d={968:(d,u)=>{Object.defineProperty(u,\"__esModule\",{value:!0}),u.default=\/(?:\\ud83d\\udc68\\ud83c\\udffb\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc68\\ud83c\\udffc\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc68\\ud83c\\udffd\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc68\\ud83c\\udffe\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc68\\ud83c\\udfff\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffb\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffb\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc69\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffc\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffc\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc69\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffd\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffd\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc69\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffe\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffe\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc69\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udfff\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udfff\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc69\\ud83c[\\udffb-\\udfff]|\\ud83e\\uddd1\\ud83c\\udffb\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83e\\uddd1\\ud83c[\\udffc-\\udfff]|\\ud83e\\uddd1\\ud83c\\udffc\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83e\\uddd1\\ud83c[\\udffb\\udffd-\\udfff]|\\ud83e\\uddd1\\ud83c\\udffd\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83e\\uddd1\\ud83c[\\udffb\\udffc\\udffe\\udfff]|\\ud83e\\uddd1\\ud83c\\udffe\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83e\\uddd1\\ud83c[\\udffb-\\udffd\\udfff]|\\ud83e\\uddd1\\ud83c\\udfff\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83e\\uddd1\\ud83c[\\udffb-\\udffe]|\\ud83d\\udc68\\ud83c\\udffb\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc68\\ud83c\\udffb\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc68\\ud83c[\\udffc-\\udfff]|\\ud83d\\udc68\\ud83c\\udffc\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc68\\ud83c\\udffc\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc68\\ud83c[\\udffb\\udffd-\\udfff]|\\ud83d\\udc68\\ud83c\\udffd\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc68\\ud83c\\udffd\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc68\\ud83c[\\udffb\\udffc\\udffe\\udfff]|\\ud83d\\udc68\\ud83c\\udffe\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc68\\ud83c\\udffe\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udffd\\udfff]|\\ud83d\\udc68\\ud83c\\udfff\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc68\\ud83c\\udfff\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udffe]|\\ud83d\\udc69\\ud83c\\udffb\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffb\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc69\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffb\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc68\\ud83c[\\udffc-\\udfff]|\\ud83d\\udc69\\ud83c\\udffb\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc69\\ud83c[\\udffc-\\udfff]|\\ud83d\\udc69\\ud83c\\udffc\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffc\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc69\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffc\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc68\\ud83c[\\udffb\\udffd-\\udfff]|\\ud83d\\udc69\\ud83c\\udffc\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc69\\ud83c[\\udffb\\udffd-\\udfff]|\\ud83d\\udc69\\ud83c\\udffd\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffd\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc69\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffd\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc68\\ud83c[\\udffb\\udffc\\udffe\\udfff]|\\ud83d\\udc69\\ud83c\\udffd\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc69\\ud83c[\\udffb\\udffc\\udffe\\udfff]|\\ud83d\\udc69\\ud83c\\udffe\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffe\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc69\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udffe\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udffd\\udfff]|\\ud83d\\udc69\\ud83c\\udffe\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc69\\ud83c[\\udffb-\\udffd\\udfff]|\\ud83d\\udc69\\ud83c\\udfff\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udfff\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc69\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc69\\ud83c\\udfff\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc68\\ud83c[\\udffb-\\udffe]|\\ud83d\\udc69\\ud83c\\udfff\\u200d\\ud83e\\udd1d\\u200d\\ud83d\\udc69\\ud83c[\\udffb-\\udffe]|\\ud83e\\uddd1\\ud83c\\udffb\\u200d\\u2764\\ufe0f\\u200d\\ud83e\\uddd1\\ud83c[\\udffc-\\udfff]|\\ud83e\\uddd1\\ud83c\\udffb\\u200d\\ud83e\\udd1d\\u200d\\ud83e\\uddd1\\ud83c[\\udffb-\\udfff]|\\ud83e\\uddd1\\ud83c\\udffc\\u200d\\u2764\\ufe0f\\u200d\\ud83e\\uddd1\\ud83c[\\udffb\\udffd-\\udfff]|\\ud83e\\uddd1\\ud83c\\udffc\\u200d\\ud83e\\udd1d\\u200d\\ud83e\\uddd1\\ud83c[\\udffb-\\udfff]|\\ud83e\\uddd1\\ud83c\\udffd\\u200d\\u2764\\ufe0f\\u200d\\ud83e\\uddd1\\ud83c[\\udffb\\udffc\\udffe\\udfff]|\\ud83e\\uddd1\\ud83c\\udffd\\u200d\\ud83e\\udd1d\\u200d\\ud83e\\uddd1\\ud83c[\\udffb-\\udfff]|\\ud83e\\uddd1\\ud83c\\udffe\\u200d\\u2764\\ufe0f\\u200d\\ud83e\\uddd1\\ud83c[\\udffb-\\udffd\\udfff]|\\ud83e\\uddd1\\ud83c\\udffe\\u200d\\ud83e\\udd1d\\u200d\\ud83e\\uddd1\\ud83c[\\udffb-\\udfff]|\\ud83e\\uddd1\\ud83c\\udfff\\u200d\\u2764\\ufe0f\\u200d\\ud83e\\uddd1\\ud83c[\\udffb-\\udffe]|\\ud83e\\uddd1\\ud83c\\udfff\\u200d\\ud83e\\udd1d\\u200d\\ud83e\\uddd1\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc68\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc68|\\ud83d\\udc69\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d[\\udc68\\udc69]|\\ud83e\\udef1\\ud83c\\udffb\\u200d\\ud83e\\udef2\\ud83c[\\udffc-\\udfff]|\\ud83e\\udef1\\ud83c\\udffc\\u200d\\ud83e\\udef2\\ud83c[\\udffb\\udffd-\\udfff]|\\ud83e\\udef1\\ud83c\\udffd\\u200d\\ud83e\\udef2\\ud83c[\\udffb\\udffc\\udffe\\udfff]|\\ud83e\\udef1\\ud83c\\udffe\\u200d\\ud83e\\udef2\\ud83c[\\udffb-\\udffd\\udfff]|\\ud83e\\udef1\\ud83c\\udfff\\u200d\\ud83e\\udef2\\ud83c[\\udffb-\\udffe]|\\ud83d\\udc68\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc68|\\ud83d\\udc69\\u200d\\u2764\\ufe0f\\u200d\\ud83d[\\udc68\\udc69]|\\ud83e\\uddd1\\u200d\\ud83e\\udd1d\\u200d\\ud83e\\uddd1|\\ud83d\\udc6b\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc6c\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc6d\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc8f\\ud83c[\\udffb-\\udfff]|\\ud83d\\udc91\\ud83c[\\udffb-\\udfff]|\\ud83e\\udd1d\\ud83c[\\udffb-\\udfff]|\\ud83d[\\udc6b-\\udc6d\\udc8f\\udc91]|\\ud83e\\udd1d)|(?:\\ud83d[\\udc68\\udc69]|\\ud83e\\uddd1)(?:\\ud83c[\\udffb-\\udfff])?\\u200d(?:\\u2695\\ufe0f|\\u2696\\ufe0f|\\u2708\\ufe0f|\\ud83c[\\udf3e\\udf73\\udf7c\\udf84\\udf93\\udfa4\\udfa8\\udfeb\\udfed]|\\ud83d[\\udcbb\\udcbc\\udd27\\udd2c\\ude80\\ude92]|\\ud83e[\\uddaf-\\uddb3\\uddbc\\uddbd])|(?:\\ud83c[\\udfcb\\udfcc]|\\ud83d[\\udd74\\udd75]|\\u26f9)((?:\\ud83c[\\udffb-\\udfff]|\\ufe0f)\\u200d[\\u2640\\u2642]\\ufe0f)|(?:\\ud83c[\\udfc3\\udfc4\\udfca]|\\ud83d[\\udc6e\\udc70\\udc71\\udc73\\udc77\\udc81\\udc82\\udc86\\udc87\\ude45-\\ude47\\ude4b\\ude4d\\ude4e\\udea3\\udeb4-\\udeb6]|\\ud83e[\\udd26\\udd35\\udd37-\\udd39\\udd3d\\udd3e\\uddb8\\uddb9\\uddcd-\\uddcf\\uddd4\\uddd6-\\udddd])(?:\\ud83c[\\udffb-\\udfff])?\\u200d[\\u2640\\u2642]\\ufe0f|(?:\\ud83d\\udc68\\u200d\\ud83d\\udc68\\u200d\\ud83d\\udc66\\u200d\\ud83d\\udc66|\\ud83d\\udc68\\u200d\\ud83d\\udc68\\u200d\\ud83d\\udc67\\u200d\\ud83d[\\udc66\\udc67]|\\ud83d\\udc68\\u200d\\ud83d\\udc69\\u200d\\ud83d\\udc66\\u200d\\ud83d\\udc66|\\ud83d\\udc68\\u200d\\ud83d\\udc69\\u200d\\ud83d\\udc67\\u200d\\ud83d[\\udc66\\udc67]|\\ud83d\\udc69\\u200d\\ud83d\\udc69\\u200d\\ud83d\\udc66\\u200d\\ud83d\\udc66|\\ud83d\\udc69\\u200d\\ud83d\\udc69\\u200d\\ud83d\\udc67\\u200d\\ud83d[\\udc66\\udc67]|\\ud83d\\udc68\\u200d\\ud83d\\udc66\\u200d\\ud83d\\udc66|\\ud83d\\udc68\\u200d\\ud83d\\udc67\\u200d\\ud83d[\\udc66\\udc67]|\\ud83d\\udc68\\u200d\\ud83d\\udc68\\u200d\\ud83d[\\udc66\\udc67]|\\ud83d\\udc68\\u200d\\ud83d\\udc69\\u200d\\ud83d[\\udc66\\udc67]|\\ud83d\\udc69\\u200d\\ud83d\\udc66\\u200d\\ud83d\\udc66|\\ud83d\\udc69\\u200d\\ud83d\\udc67\\u200d\\ud83d[\\udc66\\udc67]|\\ud83d\\udc69\\u200d\\ud83d\\udc69\\u200d\\ud83d[\\udc66\\udc67]|\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f|\\ud83c\\udff3\\ufe0f\\u200d\\ud83c\\udf08|\\ud83d\\ude36\\u200d\\ud83c\\udf2b\\ufe0f|\\u2764\\ufe0f\\u200d\\ud83d\\udd25|\\u2764\\ufe0f\\u200d\\ud83e\\ude79|\\ud83c\\udff4\\u200d\\u2620\\ufe0f|\\ud83d\\udc15\\u200d\\ud83e\\uddba|\\ud83d\\udc3b\\u200d\\u2744\\ufe0f|\\ud83d\\udc41\\u200d\\ud83d\\udde8|\\ud83d\\udc68\\u200d\\ud83d[\\udc66\\udc67]|\\ud83d\\udc69\\u200d\\ud83d[\\udc66\\udc67]|\\ud83d\\udc6f\\u200d\\u2640\\ufe0f|\\ud83d\\udc6f\\u200d\\u2642\\ufe0f|\\ud83d\\ude2e\\u200d\\ud83d\\udca8|\\ud83d\\ude35\\u200d\\ud83d\\udcab|\\ud83e\\udd3c\\u200d\\u2640\\ufe0f|\\ud83e\\udd3c\\u200d\\u2642\\ufe0f|\\ud83e\\uddde\\u200d\\u2640\\ufe0f|\\ud83e\\uddde\\u200d\\u2642\\ufe0f|\\ud83e\\udddf\\u200d\\u2640\\ufe0f|\\ud83e\\udddf\\u200d\\u2642\\ufe0f|\\ud83d\\udc08\\u200d\\u2b1b|\\ud83d\\udc26\\u200d\\u2b1b)|[#*0-9]\\ufe0f?\\u20e3|(?:[©®\\u2122\\u265f]\\ufe0f)|(?:\\ud83c[\\udc04\\udd70\\udd71\\udd7e\\udd7f\\ude02\\ude1a\\ude2f\\ude37\\udf21\\udf24-\\udf2c\\udf36\\udf7d\\udf96\\udf97\\udf99-\\udf9b\\udf9e\\udf9f\\udfcd\\udfce\\udfd4-\\udfdf\\udff3\\udff5\\udff7]|\\ud83d[\\udc3f\\udc41\\udcfd\\udd49\\udd4a\\udd6f\\udd70\\udd73\\udd76-\\udd79\\udd87\\udd8a-\\udd8d\\udda5\\udda8\\uddb1\\uddb2\\uddbc\\uddc2-\\uddc4\\uddd1-\\uddd3\\udddc-\\uddde\\udde1\\udde3\\udde8\\uddef\\uddf3\\uddfa\\udecb\\udecd-\\udecf\\udee0-\\udee5\\udee9\\udef0\\udef3]|[\\u203c\\u2049\\u2139\\u2194-\\u2199\\u21a9\\u21aa\\u231a\\u231b\\u2328\\u23cf\\u23ed-\\u23ef\\u23f1\\u23f2\\u23f8-\\u23fa\\u24c2\\u25aa\\u25ab\\u25b6\\u25c0\\u25fb-\\u25fe\\u2600-\\u2604\\u260e\\u2611\\u2614\\u2615\\u2618\\u2620\\u2622\\u2623\\u2626\\u262a\\u262e\\u262f\\u2638-\\u263a\\u2640\\u2642\\u2648-\\u2653\\u2660\\u2663\\u2665\\u2666\\u2668\\u267b\\u267f\\u2692-\\u2697\\u2699\\u269b\\u269c\\u26a0\\u26a1\\u26a7\\u26aa\\u26ab\\u26b0\\u26b1\\u26bd\\u26be\\u26c4\\u26c5\\u26c8\\u26cf\\u26d1\\u26d3\\u26d4\\u26e9\\u26ea\\u26f0-\\u26f5\\u26f8\\u26fa\\u26fd\\u2702\\u2708\\u2709\\u270f\\u2712\\u2714\\u2716\\u271d\\u2721\\u2733\\u2734\\u2744\\u2747\\u2757\\u2763\\u2764\\u27a1\\u2934\\u2935\\u2b05-\\u2b07\\u2b1b\\u2b1c\\u2b50\\u2b55\\u3030\\u303d\\u3297\\u3299])(?:\\ufe0f|(?!\\ufe0e))|(?:(?:\\ud83c[\\udfcb\\udfcc]|\\ud83d[\\udd74\\udd75\\udd90]|\\ud83e\\udef0|[\\u261d\\u26f7\\u26f9\\u270c\\u270d])(?:\\ufe0f|(?!\\ufe0e))|(?:\\ud83c[\\udf85\\udfc2-\\udfc4\\udfc7\\udfca]|\\ud83d[\\udc42\\udc43\\udc46-\\udc50\\udc66-\\udc69\\udc6e\\udc70-\\udc78\\udc7c\\udc81-\\udc83\\udc85-\\udc87\\udcaa\\udd7a\\udd95\\udd96\\ude45-\\ude47\\ude4b-\\ude4f\\udea3\\udeb4-\\udeb6\\udec0\\udecc]|\\ud83e[\\udd0c\\udd0f\\udd18-\\udd1c\\udd1e\\udd1f\\udd26\\udd30-\\udd39\\udd3d\\udd3e\\udd77\\uddb5\\uddb6\\uddb8\\uddb9\\uddbb\\uddcd-\\uddcf\\uddd1-\\udddd\\udec3-\\udec5\\udef1-\\udef8]|[\\u270a\\u270b]))(?:\\ud83c[\\udffb-\\udfff])?|(?:\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f|\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc73\\udb40\\udc63\\udb40\\udc74\\udb40\\udc7f|\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc77\\udb40\\udc6c\\udb40\\udc73\\udb40\\udc7f|\\ud83c\\udde6\\ud83c[\\udde8-\\uddec\\uddee\\uddf1\\uddf2\\uddf4\\uddf6-\\uddfa\\uddfc\\uddfd\\uddff]|\\ud83c\\udde7\\ud83c[\\udde6\\udde7\\udde9-\\uddef\\uddf1-\\uddf4\\uddf6-\\uddf9\\uddfb\\uddfc\\uddfe\\uddff]|\\ud83c\\udde8\\ud83c[\\udde6\\udde8\\udde9\\uddeb-\\uddee\\uddf0-\\uddf5\\uddf7\\uddfa-\\uddff]|\\ud83c\\udde9\\ud83c[\\uddea\\uddec\\uddef\\uddf0\\uddf2\\uddf4\\uddff]|\\ud83c\\uddea\\ud83c[\\udde6\\udde8\\uddea\\uddec\\udded\\uddf7-\\uddfa]|\\ud83c\\uddeb\\ud83c[\\uddee-\\uddf0\\uddf2\\uddf4\\uddf7]|\\ud83c\\uddec\\ud83c[\\udde6\\udde7\\udde9-\\uddee\\uddf1-\\uddf3\\uddf5-\\uddfa\\uddfc\\uddfe]|\\ud83c\\udded\\ud83c[\\uddf0\\uddf2\\uddf3\\uddf7\\uddf9\\uddfa]|\\ud83c\\uddee\\ud83c[\\udde8-\\uddea\\uddf1-\\uddf4\\uddf6-\\uddf9]|\\ud83c\\uddef\\ud83c[\\uddea\\uddf2\\uddf4\\uddf5]|\\ud83c\\uddf0\\ud83c[\\uddea\\uddec-\\uddee\\uddf2\\uddf3\\uddf5\\uddf7\\uddfc\\uddfe\\uddff]|\\ud83c\\uddf1\\ud83c[\\udde6-\\udde8\\uddee\\uddf0\\uddf7-\\uddfb\\uddfe]|\\ud83c\\uddf2\\ud83c[\\udde6\\udde8-\\udded\\uddf0-\\uddff]|\\ud83c\\uddf3\\ud83c[\\udde6\\udde8\\uddea-\\uddec\\uddee\\uddf1\\uddf4\\uddf5\\uddf7\\uddfa\\uddff]|\\ud83c\\uddf4\\ud83c\\uddf2|\\ud83c\\uddf5\\ud83c[\\udde6\\uddea-\\udded\\uddf0-\\uddf3\\uddf7-\\uddf9\\uddfc\\uddfe]|\\ud83c\\uddf6\\ud83c\\udde6|\\ud83c\\uddf7\\ud83c[\\uddea\\uddf4\\uddf8\\uddfa\\uddfc]|\\ud83c\\uddf8\\ud83c[\\udde6-\\uddea\\uddec-\\uddf4\\uddf7-\\uddf9\\uddfb\\uddfd-\\uddff]|\\ud83c\\uddf9\\ud83c[\\udde6\\udde8\\udde9\\uddeb-\\udded\\uddef-\\uddf4\\uddf7\\uddf9\\uddfb\\uddfc\\uddff]|\\ud83c\\uddfa\\ud83c[\\udde6\\uddec\\uddf2\\uddf3\\uddf8\\uddfe\\uddff]|\\ud83c\\uddfb\\ud83c[\\udde6\\udde8\\uddea\\uddec\\uddee\\uddf3\\uddfa]|\\ud83c\\uddfc\\ud83c[\\uddeb\\uddf8]|\\ud83c\\uddfd\\ud83c\\uddf0|\\ud83c\\uddfe\\ud83c[\\uddea\\uddf9]|\\ud83c\\uddff\\ud83c[\\udde6\\uddf2\\uddfc]|\\ud83c[\\udccf\\udd8e\\udd91-\\udd9a\\udde6-\\uddff\\ude01\\ude32-\\ude36\\ude38-\\ude3a\\ude50\\ude51\\udf00-\\udf20\\udf2d-\\udf35\\udf37-\\udf7c\\udf7e-\\udf84\\udf86-\\udf93\\udfa0-\\udfc1\\udfc5\\udfc6\\udfc8\\udfc9\\udfcf-\\udfd3\\udfe0-\\udff0\\udff4\\udff8-\\udfff]|\\ud83d[\\udc00-\\udc3e\\udc40\\udc44\\udc45\\udc51-\\udc65\\udc6a\\udc6f\\udc79-\\udc7b\\udc7d-\\udc80\\udc84\\udc88-\\udc8e\\udc90\\udc92-\\udca9\\udcab-\\udcfc\\udcff-\\udd3d\\udd4b-\\udd4e\\udd50-\\udd67\\udda4\\uddfb-\\ude44\\ude48-\\ude4a\\ude80-\\udea2\\udea4-\\udeb3\\udeb7-\\udebf\\udec1-\\udec5\\uded0-\\uded2\\uded5-\\uded7\\udedc-\\udedf\\udeeb\\udeec\\udef4-\\udefc\\udfe0-\\udfeb\\udff0]|\\ud83e[\\udd0d\\udd0e\\udd10-\\udd17\\udd20-\\udd25\\udd27-\\udd2f\\udd3a\\udd3c\\udd3f-\\udd45\\udd47-\\udd76\\udd78-\\uddb4\\uddb7\\uddba\\uddbc-\\uddcc\\uddd0\\uddde-\\uddff\\ude70-\\ude7c\\ude80-\\ude88\\ude90-\\udebd\\udebf-\\udec2\\udece-\\udedb\\udee0-\\udee8]|[\\u23e9-\\u23ec\\u23f0\\u23f3\\u267e\\u26ce\\u2705\\u2728\\u274c\\u274e\\u2753-\\u2755\\u2795-\\u2797\\u27b0\\u27bf\\ue50a])|\\ufe0f\/g},556:(d,u,e)=>{Object.defineProperty(u,\"__esModule\",{value:!0}),u.extract=u.inspect=u.toString=u.parseSimple=u.parse=void 0;const f=e(208),c=e(738);function t(d,u){if(Array.isArray(d))for(const e of d)(0,c.inspectOne)(e,u);else(0,c.inspectOne)(d,u)}u.parse=function(d,u={}){return(0,f.fullParser)(d,{nestLimit:u.nestLimit})},u.parseSimple=function(d){return(0,f.simpleParser)(d)},u.toString=function(d){return Array.isArray(d)?(0,c.stringifyTree)(d):(0,c.stringifyNode)(d)},u.inspect=t,u.extract=function(d,u){const e=[];return t(d,(d=>{u(d)&&e.push(d)})),e}},248:(d,u,e)=>{Object.defineProperty(u,\"__esModule\",{value:!0}),u.TEXT=u.PLAIN=u.FN=u.LINK=u.N_URL=u.HASHTAG=u.MENTION=u.MATH_INLINE=u.INLINE_CODE=u.STRIKE=u.ITALIC=u.SMALL=u.BOLD=u.EMOJI_CODE=u.UNI_EMOJI=u.CENTER=u.MATH_BLOCK=u.CODE_BLOCK=u.SEARCH=u.QUOTE=u.extract=u.inspect=u.toString=u.parseSimple=u.parse=void 0;var f=e(556);Object.defineProperty(u,\"parse\",{enumerable:!0,get:function(){return f.parse}}),Object.defineProperty(u,\"parseSimple\",{enumerable:!0,get:function(){return f.parseSimple}}),Object.defineProperty(u,\"toString\",{enumerable:!0,get:function(){return f.toString}}),Object.defineProperty(u,\"inspect\",{enumerable:!0,get:function(){return f.inspect}}),Object.defineProperty(u,\"extract\",{enumerable:!0,get:function(){return f.extract}});var c=e(70);Object.defineProperty(u,\"QUOTE\",{enumerable:!0,get:function(){return c.QUOTE}}),Object.defineProperty(u,\"SEARCH\",{enumerable:!0,get:function(){return c.SEARCH}}),Object.defineProperty(u,\"CODE_BLOCK\",{enumerable:!0,get:function(){return c.CODE_BLOCK}}),Object.defineProperty(u,\"MATH_BLOCK\",{enumerable:!0,get:function(){return c.MATH_BLOCK}}),Object.defineProperty(u,\"CENTER\",{enumerable:!0,get:function(){return c.CENTER}}),Object.defineProperty(u,\"UNI_EMOJI\",{enumerable:!0,get:function(){return c.UNI_EMOJI}}),Object.defineProperty(u,\"EMOJI_CODE\",{enumerable:!0,get:function(){return c.EMOJI_CODE}}),Object.defineProperty(u,\"BOLD\",{enumerable:!0,get:function(){return c.BOLD}}),Object.defineProperty(u,\"SMALL\",{enumerable:!0,get:function(){return c.SMALL}}),Object.defineProperty(u,\"ITALIC\",{enumerable:!0,get:function(){return c.ITALIC}}),Object.defineProperty(u,\"STRIKE\",{enumerable:!0,get:function(){return c.STRIKE}}),Object.defineProperty(u,\"INLINE_CODE\",{enumerable:!0,get:function(){return c.INLINE_CODE}}),Object.defineProperty(u,\"MATH_INLINE\",{enumerable:!0,get:function(){return c.MATH_INLINE}}),Object.defineProperty(u,\"MENTION\",{enumerable:!0,get:function(){return c.MENTION}}),Object.defineProperty(u,\"HASHTAG\",{enumerable:!0,get:function(){return c.HASHTAG}}),Object.defineProperty(u,\"N_URL\",{enumerable:!0,get:function(){return c.N_URL}}),Object.defineProperty(u,\"LINK\",{enumerable:!0,get:function(){return c.LINK}}),Object.defineProperty(u,\"FN\",{enumerable:!0,get:function(){return c.FN}}),Object.defineProperty(u,\"PLAIN\",{enumerable:!0,get:function(){return c.PLAIN}}),Object.defineProperty(u,\"TEXT\",{enumerable:!0,get:function(){return c.TEXT}})},362:(d,u)=>{function e(d,u){return{success:!0,value:u,index:d}}Object.defineProperty(u,\"__esModule\",{value:!0}),u.createLanguage=u.lazy=u.lineEnd=u.lineBegin=u.char=u.newline=u.crlf=u.lf=u.cr=u.notMatch=u.alt=u.seq=u.regexp=u.str=u.Parser=u.failure=u.success=void 0,u.success=e,u.failure=function(){return{success:!1}};class f{constructor(d,u){this.handler=(u,e,f)=>{if(f.trace&&null!=this.name){const c=`${e}`;console.log(`${c.padEnd(6,\" \")}enter ${this.name}`);const t=d(u,e,f);if(t.success){const d=`${e}:${t.index}`;console.log(`${d.padEnd(6,\" \")}match ${this.name}`)}else{const d=`${e}`;console.log(`${d.padEnd(6,\" \")}fail ${this.name}`)}return t}return d(u,e,f)},this.name=u}map(d){return new f(((u,f,c)=>{const t=this.handler(u,f,c);return t.success?e(t.index,d(t.value)):t}))}text(){return new f(((d,u,f)=>{const c=this.handler(d,u,f);if(!c.success)return c;const t=d.slice(u,c.index);return e(c.index,t)}))}many(d){return new f(((u,f,c)=>{let t,n=f;const r=[];for(;n<u.length&&(t=this.handler(u,n,c),t.success);)n=t.index,r.push(t.value);return r.length<d?{success:!1}:e(n,r)}))}sep(d,u){if(u<1)throw new Error('\"min\" must be a value greater than or equal to 1.');return t([this,t([d,this],1).many(u-1)]).map((d=>[d[0],...d[1]]))}option(){return n([this,new f(((d,u,f)=>e(u,null)))])}}function c(d){return new f(((u,f,c)=>u.length-f<d.length||u.substr(f,d.length)!==d?{success:!1}:e(f+d.length,d)))}function t(d,u){return new f(((f,c,t)=>{let n,r=c;const s=[];for(let u=0;u<d.length;u++){if(n=d[u].handler(f,r,t),!n.success)return n;r=n.index,s.push(n.value)}return e(r,null!=u?s[u]:s)}))}function n(d){return new f(((u,e,f)=>{let c;for(let t=0;t<d.length;t++)if(c=d[t].handler(u,e,f),c.success)return c;return{success:!1}}))}function r(d){const u=new f(((e,f,c)=>(u.handler=d().handler,u.handler(e,f,c))));return u}u.Parser=f,u.str=c,u.regexp=function(d){const u=RegExp(`^(?:${d.source})`,d.flags);return new f(((d,f,c)=>{const t=d.slice(f),n=u.exec(t);return null==n?{success:!1}:e(f+n[0].length,n[0])}))},u.seq=t,u.alt=n,u.notMatch=function(d){return new f(((u,f,c)=>d.handler(u,f,c).success?{success:!1}:e(f,null)))},u.cr=c(\"\\r\"),u.lf=c(\"\\n\"),u.crlf=c(\"\\r\\n\"),u.newline=n([u.crlf,u.cr,u.lf]),u.char=new f(((d,u,f)=>d.length-u<1?{success:!1}:e(u+1,d.charAt(u)))),u.lineBegin=new f(((d,f,c)=>0===f||u.cr.handler(d,f-1,c).success||u.lf.handler(d,f-1,c).success?e(f,null):{success:!1})),u.lineEnd=new f(((d,f,c)=>f===d.length||u.cr.handler(d,f,c).success||u.lf.handler(d,f,c).success?e(f,null):{success:!1})),u.lazy=r,u.createLanguage=function(d){const u={};for(const e of Object.keys(d))u[e]=r((()=>{const f=d[e](u);if(null==f)throw new Error(\"syntax must return a parser.\");return f.name=e,f}));return u}},208:(d,u,e)=>{Object.defineProperty(u,\"__esModule\",{value:!0}),u.simpleParser=u.fullParser=void 0;const f=e(973),c=e(738);u.fullParser=function(d,u){const e=f.language.fullParser.handler(d,0,{nestLimit:null!=u.nestLimit?u.nestLimit:20,depth:0,linkLabel:!1,trace:!1});return(0,c.mergeText)(e.value)},u.simpleParser=function(d){const u=f.language.simpleParser.handler(d,0,{});return(0,c.mergeText)(u.value)}},973:function(d,u,e){var f=this&&this.__createBinding||(Object.create?function(d,u,e,f){void 0===f&&(f=e);var c=Object.getOwnPropertyDescriptor(u,e);c&&!(\"get\"in c?!u.__esModule:c.writable||c.configurable)||(c={enumerable:!0,get:function(){return u[e]}}),Object.defineProperty(d,f,c)}:function(d,u,e,f){void 0===f&&(f=e),d[f]=u[e]}),c=this&&this.__setModuleDefault||(Object.create?function(d,u){Object.defineProperty(d,\"default\",{enumerable:!0,value:u})}:function(d,u){d.default=u}),t=this&&this.__importStar||function(d){if(d&&d.__esModule)return d;var u={};if(null!=d)for(var e in d)\"default\"!==e&&Object.prototype.hasOwnProperty.call(d,e)&&f(u,d,e);return c(u,d),u},n=this&&this.__importDefault||function(d){return d&&d.__esModule?d:{default:d}};Object.defineProperty(u,\"__esModule\",{value:!0}),u.language=void 0;const r=t(e(248)),s=t(e(362)),a=e(738),i=n(e(968)),o=s.regexp(\/[\\u0020\\u3000\\t]\/),l=s.regexp(\/[a-z0-9]\/i),b=s.alt([s.crlf,s.cr,s.lf]);function p(d){return new s.Parser(((u,e,f)=>{const c=[];let t=e;for(let n=0;n<d.length;n++){const r=d[n].handler(u,t,f);if(!r.success)return t===e?s.failure():s.success(t,u.slice(e,t));c.push(r.value),t=r.index}return s.success(t,c)}))}const m=new s.Parser(((d,u,e)=>e.linkLabel?s.failure():s.success(u,null))),h=new s.Parser(((d,u,e)=>e.depth<e.nestLimit?s.success(u,null):s.failure()));function g(d,u){const e=s.alt([s.seq([h,d],1),null!=u?u:s.char]);return new s.Parser(((d,u,f)=>{f.depth++;const c=e.handler(d,u,f);return f.depth--,c}))}u.language=s.createLanguage({fullParser:d=>d.full.many(0),simpleParser:d=>d.simple.many(0),full:d=>s.alt([d.unicodeEmoji,d.centerTag,d.smallTag,d.plainTag,d.boldTag,d.italicTag,d.strikeTag,d.urlAlt,d.big,d.boldAsta,d.italicAsta,d.boldUnder,d.italicUnder,d.codeBlock,d.inlineCode,d.quote,d.mathBlock,d.mathInline,d.strikeWave,d.fn,d.mention,d.hashtag,d.emojiCode,d.link,d.url,d.search,d.text]),simple:d=>s.alt([d.unicodeEmoji,d.emojiCode,d.text]),inline:d=>s.alt([d.unicodeEmoji,d.smallTag,d.plainTag,d.boldTag,d.italicTag,d.strikeTag,d.urlAlt,d.big,d.boldAsta,d.italicAsta,d.boldUnder,d.italicUnder,d.inlineCode,d.mathInline,d.strikeWave,d.fn,d.mention,d.hashtag,d.emojiCode,d.link,d.url,d.text]),quote:d=>{const u=s.seq([s.str(\">\"),o.option(),s.seq([s.notMatch(b),s.char],1).many(0).text()],2).sep(b,1),e=s.seq([b.option(),b.option(),s.lineBegin,u,b.option(),b.option()],3);return new s.Parser(((u,f,c)=>{let t;if(t=e.handler(u,f,c),!t.success)return t;const n=t.value,i=t.index;return 1===n.length&&0===n[0].length?s.failure():(t=g(d.fullParser).many(0).handler(n.join(\"\\n\"),0,c),t.success?s.success(i,r.QUOTE((0,a.mergeText)(t.value))):t)}))},codeBlock:d=>{const u=s.str(\"```\");return s.seq([b.option(),s.lineBegin,u,s.seq([s.notMatch(b),s.char],1).many(0),b,s.seq([s.notMatch(s.seq([b,u,s.lineEnd])),s.char],1).many(1),b,u,s.lineEnd,b.option()]).map((d=>{const u=d[3].join(\"\").trim(),e=d[5].join(\"\");return r.CODE_BLOCK(e,u.length>0?u:null)}))},mathBlock:d=>{const u=s.str(\"\\\\[\"),e=s.str(\"\\\\]\");return s.seq([b.option(),s.lineBegin,u,b.option(),s.seq([s.notMatch(s.seq([b.option(),e])),s.char],1).many(1),b.option(),e,s.lineEnd,b.option()]).map((d=>{const u=d[4].join(\"\");return r.MATH_BLOCK(u)}))},centerTag:d=>{const u=s.str(\"<center>\"),e=s.str(\"<\/center>\");return s.seq([b.option(),s.lineBegin,u,b.option(),s.seq([s.notMatch(s.seq([b.option(),e])),g(d.inline)],1).many(1),b.option(),e,s.lineEnd,b.option()]).map((d=>r.CENTER((0,a.mergeText)(d[4]))))},big:d=>{const u=s.str(\"***\");return p([u,s.seq([s.notMatch(u),g(d.inline)],1).many(1),u]).map((d=>\"string\"==typeof d?d:r.FN(\"tada\",{},(0,a.mergeText)(d[1]))))},boldAsta:d=>{const u=s.str(\"**\");return p([u,s.seq([s.notMatch(u),g(d.inline)],1).many(1),u]).map((d=>\"string\"==typeof d?d:r.BOLD((0,a.mergeText)(d[1]))))},boldTag:d=>{const u=s.str(\"<b>\"),e=s.str(\"<\/b>\");return p([u,s.seq([s.notMatch(e),g(d.inline)],1).many(1),e]).map((d=>\"string\"==typeof d?d:r.BOLD((0,a.mergeText)(d[1]))))},boldUnder:d=>{const u=s.str(\"__\");return s.seq([u,s.alt([l,o]).many(1),u]).map((d=>r.BOLD((0,a.mergeText)(d[1]))))},smallTag:d=>{const u=s.str(\"<small>\"),e=s.str(\"<\/small>\");return p([u,s.seq([s.notMatch(e),g(d.inline)],1).many(1),e]).map((d=>\"string\"==typeof d?d:r.SMALL((0,a.mergeText)(d[1]))))},italicTag:d=>{const u=s.str(\"<i>\"),e=s.str(\"<\/i>\");return p([u,s.seq([s.notMatch(e),g(d.inline)],1).many(1),e]).map((d=>\"string\"==typeof d?d:r.ITALIC((0,a.mergeText)(d[1]))))},italicAsta:d=>{const u=s.str(\"*\"),e=s.seq([u,s.alt([l,o]).many(1),u]);return new s.Parser(((d,u,f)=>{const c=e.handler(d,u,f);if(!c.success)return s.failure();const t=d.slice(0,u);return\/[a-z0-9]$\/i.test(t)?s.failure():s.success(c.index,r.ITALIC((0,a.mergeText)(c.value[1])))}))},italicUnder:d=>{const u=s.str(\"_\"),e=s.seq([u,s.alt([l,o]).many(1),u]);return new s.Parser(((d,u,f)=>{const c=e.handler(d,u,f);if(!c.success)return s.failure();const t=d.slice(0,u);return\/[a-z0-9]$\/i.test(t)?s.failure():s.success(c.index,r.ITALIC((0,a.mergeText)(c.value[1])))}))},strikeTag:d=>{const u=s.str(\"<s>\"),e=s.str(\"<\/s>\");return p([u,s.seq([s.notMatch(e),g(d.inline)],1).many(1),e]).map((d=>\"string\"==typeof d?d:r.STRIKE((0,a.mergeText)(d[1]))))},strikeWave:d=>{const u=s.str(\"~~\");return p([u,s.seq([s.notMatch(s.alt([u,b])),g(d.inline)],1).many(1),u]).map((d=>\"string\"==typeof d?d:r.STRIKE((0,a.mergeText)(d[1]))))},unicodeEmoji:d=>{const u=RegExp(i.default.source);return s.regexp(u).map((d=>r.UNI_EMOJI(d)))},plainTag:d=>{const u=s.str(\"<plain>\"),e=s.str(\"<\/plain>\");return s.seq([u,b.option(),s.seq([s.notMatch(s.seq([b.option(),e])),s.char],1).many(1).text(),b.option(),e],2).map((d=>r.PLAIN(d)))},fn:d=>{const u=new s.Parser(((d,u,e)=>{const f=s.regexp(\/[a-z0-9_]+\/i).handler(d,u,e);return f.success?s.success(f.index,f.value):f})),e=s.seq([s.regexp(\/[a-z0-9_]+\/i),s.seq([s.str(\"=\"),s.regexp(\/[a-z0-9_.-]+\/i)],1).option()]).map((d=>({k:d[0],v:null==d[1]||d[1]}))),f=s.seq([s.str(\".\"),e.sep(s.str(\",\"),1)],1).map((d=>{const u={};for(const e of d)u[e.k]=e.v;return u})),c=s.str(\"]\");return p([s.str(\"$[\"),u,f.option(),s.str(\" \"),s.seq([s.notMatch(c),g(d.inline)],1).many(1),c]).map((d=>{if(\"string\"==typeof d)return d;const u=d[1],e=d[2]||{},f=d[4];return r.FN(u,e,(0,a.mergeText)(f))}))},inlineCode:d=>{const u=s.str(\"`\");return s.seq([u,s.seq([s.notMatch(s.alt([u,s.str(\"´\"),b])),s.char],1).many(1),u]).map((d=>r.INLINE_CODE(d[1].join(\"\"))))},mathInline:d=>{const u=s.str(\"\\\\(\"),e=s.str(\"\\\\)\");return s.seq([u,s.seq([s.notMatch(s.alt([e,b])),s.char],1).many(1),e]).map((d=>r.MATH_INLINE(d[1].join(\"\"))))},mention:d=>{const u=s.seq([m,s.str(\"@\"),s.regexp(\/[a-z0-9_-]+\/i),s.seq([s.str(\"@\"),s.regexp(\/[a-z0-9_.-]+\/i)],1).option()]);return new s.Parser(((d,e,f)=>{let c;if(c=u.handler(d,e,f),!c.success)return s.failure();const t=d.slice(0,e);if(\/[a-z0-9]$\/i.test(t))return s.failure();let n=!1;const a=c.index,i=c.value[2],o=c.value[3];let l=o;null!=o&&(c=\/[.-]+$\/.exec(o),null!=c&&(l=o.slice(0,-1*c[0].length),0===l.length&&(n=!0,l=null)));let b=i;if(c=\/-+$\/.exec(i),null!=c&&(null==l?b=i.slice(0,-1*c[0].length):n=!0),0!==b.length&&\"-\"!==b[0]||(n=!0),null!=l&&\/^[.-]\/.test(l)&&(n=!0),n)return s.success(a,d.slice(e,a));const p=null!=l?`@${b}@${l}`:`@${b}`;return s.success(e+p.length,r.MENTION(b,l,p))}))},hashtag:d=>{const u=s.str(\"#\"),e=s.seq([s.notMatch(s.alt([s.regexp(\/[ \\u3000\t.,!?'\"#:\/[\\\\]【】()「」（）<>]\/),o,b])),s.char],1),f=s.lazy((()=>s.alt([s.seq([s.str(\"(\"),g(f,e).many(0),s.str(\")\")]),s.seq([s.str(\"[\"),g(f,e).many(0),s.str(\"]\")]),s.seq([s.str(\"「\"),g(f,e).many(0),s.str(\"」\")]),s.seq([s.str(\"（\"),g(f,e).many(0),s.str(\"）\")]),e]))),c=s.seq([m,u,f.many(1).text()],2);return new s.Parser(((d,u,e)=>{const f=c.handler(d,u,e);if(!f.success)return s.failure();const t=d.slice(0,u);if(\/[a-z0-9]$\/i.test(t))return s.failure();const n=f.index,a=f.value;return\/^[0-9]+$\/.test(a)?s.failure():s.success(n,r.HASHTAG(a))}))},emojiCode:d=>{const u=s.notMatch(s.regexp(\/[a-z0-9]\/i)),e=s.str(\":\");return s.seq([s.alt([s.lineBegin,u]),e,s.regexp(\/[a-z0-9_+-]+\/i),e,s.alt([s.lineEnd,u])],2).map((d=>r.EMOJI_CODE(d)))},link:d=>{const u=new s.Parser(((u,e,f)=>{f.linkLabel=!0;const c=d.inline.handler(u,e,f);return f.linkLabel=!1,c})),e=s.str(\"]\");return s.seq([m,s.alt([s.str(\"?[\"),s.str(\"[\")]),s.seq([s.notMatch(s.alt([e,b])),g(u)],1).many(1),e,s.str(\"(\"),s.alt([d.urlAlt,d.url]),s.str(\")\")]).map((d=>{const u=\"?[\"===d[1],e=d[2],f=d[5];return r.LINK(u,f.props.url,(0,a.mergeText)(e))}))},url:d=>{const u=s.regexp(\/[.,a-z0-9_\/:%#@$&?!~=+-]\/i),e=s.lazy((()=>s.alt([s.seq([s.str(\"(\"),g(e,u).many(0),s.str(\")\")]),s.seq([s.str(\"[\"),g(e,u).many(0),s.str(\"]\")]),u]))),f=s.seq([m,s.regexp(\/https?:\\\/\\\/\/),e.many(1).text()]);return new s.Parser(((d,u,e)=>{let c;if(c=f.handler(d,u,e),!c.success)return s.failure();const t=c.index;let n=t;const a=c.value[1];let i=c.value[2];return c=\/[.,]+$\/.exec(i),null!=c&&(n-=c[0].length,i=i.slice(0,-1*c[0].length),0===i.length)?s.success(t,d.slice(u,t)):s.success(n,r.N_URL(a+i,!1))}))},urlAlt:d=>{const u=s.str(\"<\"),e=s.str(\">\"),f=s.seq([m,u,s.regexp(\/https?:\\\/\\\/\/),s.seq([s.notMatch(s.alt([e,o])),s.char],1).many(1),e]).text();return new s.Parser(((d,u,e)=>{const c=f.handler(d,u,e);if(!c.success)return s.failure();const t=c.value.slice(1,c.value.length-1);return s.success(c.index,r.N_URL(t,!0))}))},search:d=>{const u=s.alt([s.regexp(\/\\[(検索|search)\\]\/i),s.regexp(\/(検索|search)\/i)]);return s.seq([b.option(),s.lineBegin,s.seq([s.notMatch(s.alt([b,s.seq([o,u,s.lineEnd])])),s.char],1).many(1),o,u,s.lineEnd,b.option()]).map((d=>{const u=d[2].join(\"\");return r.SEARCH(u,`${u}${d[3]}${d[4]}`)}))},text:d=>s.char})},738:(d,u,e)=>{Object.defineProperty(u,\"__esModule\",{value:!0}),u.inspectOne=u.stringifyTree=u.stringifyNode=u.mergeText=void 0;const f=e(70);function c(d){var u;switch(d.type){case\"quote\":return n(d.children).split(\"\\n\").map((d=>`> ${d}`)).join(\"\\n\");case\"search\":return d.props.content;case\"blockCode\":return`\\`\\`\\`${null!==(u=d.props.lang)&&void 0!==u?u:\"\"}\\n${d.props.code}\\n\\`\\`\\``;case\"mathBlock\":return`\\\\[\\n${d.props.formula}\\n\\\\]`;case\"center\":return`<center>\\n${n(d.children)}\\n<\/center>`;case\"emojiCode\":return`:${d.props.name}:`;case\"unicodeEmoji\":return d.props.emoji;case\"bold\":return`**${n(d.children)}**`;case\"small\":return`<small>${n(d.children)}<\/small>`;case\"italic\":return`<i>${n(d.children)}<\/i>`;case\"strike\":return`~~${n(d.children)}~~`;case\"inlineCode\":return`\\`${d.props.code}\\``;case\"mathInline\":return`\\\\(${d.props.formula}\\\\)`;case\"mention\":return d.props.acct;case\"hashtag\":return`#${d.props.hashtag}`;case\"url\":return d.props.brackets?`<${d.props.url}>`:d.props.url;case\"link\":return`${d.props.silent?\"?\":\"\"}[${n(d.children)}](${d.props.url})`;case\"fn\":{const u=Object.keys(d.props.args).map((u=>{const e=d.props.args[u];return!0===e?u:`${u}=${e}`})),e=u.length>0?\".\"+u.join(\",\"):\"\";return`$[${d.props.name}${e} ${n(d.children)}]`}case\"plain\":return`<plain>\\n${n(d.children)}\\n<\/plain>`;case\"text\":return d.props.text}throw new Error(\"unknown mfm node\")}var t;function n(d){const u=[];let e=t.none;for(const c of d){let d=!0;(0,f.isMfmBlock)(c)?(e===t.none&&(d=!1),e=t.block):(e!==t.none&&e!==t.inline||(d=!1),e=t.inline),d&&u.push((0,f.TEXT)(\"\\n\")),u.push(c)}return u.map((d=>c(d))).join(\"\")}u.mergeText=function(d){const u=[],e=[];function c(){e.length>0&&(u.push((0,f.TEXT)(e.join(\"\"))),e.length=0)}const t=d.flat(1);for(const d of t)\"string\"==typeof d?e.push(d):Array.isArray(d)||\"text\"!==d.type?(c(),u.push(d)):e.push(d.props.text);return c(),u},u.stringifyNode=c,function(d){d[d.none=0]=\"none\",d[d.inline=1]=\"inline\",d[d.block=2]=\"block\"}(t||(t={})),u.stringifyTree=n,u.inspectOne=function d(u,e){if(e(u),null!=u.children)for(const f of u.children)d(f,e)}},70:(d,u)=>{Object.defineProperty(u,\"__esModule\",{value:!0}),u.TEXT=u.PLAIN=u.FN=u.LINK=u.N_URL=u.HASHTAG=u.MENTION=u.MATH_INLINE=u.INLINE_CODE=u.STRIKE=u.ITALIC=u.SMALL=u.BOLD=u.EMOJI_CODE=u.UNI_EMOJI=u.CENTER=u.MATH_BLOCK=u.CODE_BLOCK=u.SEARCH=u.QUOTE=u.isMfmBlock=void 0;const e=[\"quote\",\"search\",\"blockCode\",\"mathBlock\",\"center\"];u.isMfmBlock=function(d){return e.includes(d.type)},u.QUOTE=d=>({type:\"quote\",children:d}),u.SEARCH=(d,u)=>({type:\"search\",props:{query:d,content:u}}),u.CODE_BLOCK=(d,u)=>({type:\"blockCode\",props:{code:d,lang:u}}),u.MATH_BLOCK=d=>({type:\"mathBlock\",props:{formula:d}}),u.CENTER=d=>({type:\"center\",children:d}),u.UNI_EMOJI=d=>({type:\"unicodeEmoji\",props:{emoji:d}}),u.EMOJI_CODE=d=>({type:\"emojiCode\",props:{name:d}}),u.BOLD=d=>({type:\"bold\",children:d}),u.SMALL=d=>({type:\"small\",children:d}),u.ITALIC=d=>({type:\"italic\",children:d}),u.STRIKE=d=>({type:\"strike\",children:d}),u.INLINE_CODE=d=>({type:\"inlineCode\",props:{code:d}}),u.MATH_INLINE=d=>({type:\"mathInline\",props:{formula:d}}),u.MENTION=(d,u,e)=>({type:\"mention\",props:{username:d,host:u,acct:e}}),u.HASHTAG=d=>({type:\"hashtag\",props:{hashtag:d}}),u.N_URL=(d,u)=>{const e={type:\"url\",props:{url:d}};return u&&(e.props.brackets=u),e},u.LINK=(d,u,e)=>({type:\"link\",props:{silent:d,url:u},children:e}),u.FN=(d,u,e)=>({type:\"fn\",props:{name:d,args:u},children:e}),u.PLAIN=d=>({type:\"plain\",children:[(0,u.TEXT)(d)]}),u.TEXT=d=>({type:\"text\",props:{text:d}})}},u={};function e(f){var c=u[f];if(void 0!==c)return c.exports;var t=u[f]={exports:{}};return d[f].call(t.exports,t,t.exports,e),t.exports}e.d=(d,u)=>{for(var f in u)e.o(u,f)&&!e.o(d,f)&&Object.defineProperty(d,f,{enumerable:!0,get:u[f]})},e.o=(d,u)=>Object.prototype.hasOwnProperty.call(d,u),e.r=d=>{\"undefined\"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(d,Symbol.toStringTag,{value:\"Module\"}),Object.defineProperty(d,\"__esModule\",{value:!0})};var f={};e.r(f),e.d(f,{MFMService:()=>t});var c=e(248);class t{static parse(d){return c.parse(d)}static parseSimple(d){return c.parseSimple(d)}static toJson(d){return JSON.stringify(d)}static toString(d){return c.toString(d)}}mfm=f})();\n\""
+    }
+  ]
 }

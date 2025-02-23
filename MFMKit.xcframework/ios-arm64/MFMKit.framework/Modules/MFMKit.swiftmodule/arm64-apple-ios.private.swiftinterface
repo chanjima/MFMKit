@@ -2,12 +2,16 @@
 // swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios18.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MFMKit
 import Foundation
+import JavaScriptCore
 @_exported import MFMKit
 import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class Mfm {
-  public static func parse(_ inputText: Swift.String)
+  public static func parse(_ inputText: Swift.String) -> [Swift.AnyHashable : Any]?
+  public static func parseSimple(_ inputText: Swift.String) -> [Swift.AnyHashable : Any]?
+  public static func toJson(_ inputMfmTree: [Swift.AnyHashable : Any]) -> Swift.String?
+  public static func toString(_ inputMfmTree: [Swift.AnyHashable : Any]) -> Swift.String?
   @objc deinit
 }
